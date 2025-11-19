@@ -25,7 +25,8 @@ class _NewsEntryListPageState extends State<NewsEntryListPage> {
     // Decode response to json format
     var data = response;
     
-    // Convert json data to NewsEntry objects
+    //Komen 
+    //Buat deploy
     List<NewsEntry> listNews = [];
     for (var d in data) {
       if (d != null) {
